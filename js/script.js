@@ -14,7 +14,7 @@ function mainPage(){
     document.getElementById("page").innerHTML = page
 }
 function showAnime(anime){
-    console.log(anime)
+   // console.log(anime)
     document.getElementById("animecard").innerHTML = "";
     anime.forEach(anime => {
         let card = document.createElement("a");
