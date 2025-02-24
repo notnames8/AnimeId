@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <header class="header">
+        <h3 class="title" id="title">ANIME.ID</h3>
+        <form class="search-form" id="search-form">
+            <input type="text" placeholder="Search" class="searchinput" id="searchinput">
+            <div class="searchbtn" id="searchbtn"><i class="bi bi-search"></i></div>
+        </form>
+    </header>
+    <div class="animecard" id="animecard"></div>
+    <div class="pagination">
+        <button class="prev" id="prev">Prev</button>
+        <div class="page" id="page"></div>
+        <p>/</p>
+        <div class="total" id="total"></div>
+        <button class="next" id="next">Next</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
